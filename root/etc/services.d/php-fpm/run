@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv sh
-
+chown -R www-data:www-data /var/www
 mkdir -p /var/log/nginx/
 exec php-fpm;
