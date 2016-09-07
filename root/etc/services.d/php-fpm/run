@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv sh
+
+mkdir -p /var/log/nginx/
+exec php-fpm;
